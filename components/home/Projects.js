@@ -4,33 +4,26 @@ import SectionHeader from '../atoms/SectionHeader';
 
 const projects = [
   {
-    image: '/assets/hero.svg',
+    image: '/assets/project-1.jpg',
     altImageText: 'Project 1 image',
     title: 'Odoo HR ',
     description:
       'Deployed an HR Odoo Module for SPQR Agency which manages the data of their employees and helps them with the onboarding new recruits  ',
   },
   {
-    image: '/assets/hero.svg',
+    image: '/assets/project-2.jpg',
     altImageText: 'Project 1 image',
     title: 'Dinisium',
     description:
       'Dinisium is an asset backed tokens exchange where we can buy/sell tokens backed by real assets .',
   },
   {
-    image: '/assets/hero.svg',
+    image: '/assets/project-3.jpg',
     altImageText: 'Project 1 image',
     title: 'Reflective collective',
     description:
       'Reflective collective is a NFT related project where we can purchase NFTs related to characters of a story .',
-  },
-  {
-    image: '/assets/hero.svg',
-    altImageText: 'Project 1 image',
-    title: 'Project 1',
-    description:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-  },
+  }
 ];
 
 function Projects() {

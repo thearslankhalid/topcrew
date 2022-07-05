@@ -6,7 +6,7 @@ const team = [
   {
     image: '/assets/arslan.jpg',
     name: 'Arslan Khalid',
-    role: 'Lead Front-end engineer',
+    role: 'Lead Front-end Engineer',
     facebookProfileLink: 'https://www.linkedin.com/in/thearslankhalid/',
     linkedInProfileLink: 'https://www.linkedin.com/in/thearslankhalid/',
     twitterProfileLink: 'https://twitter.com',
@@ -14,7 +14,7 @@ const team = [
   {
     image: '/assets/shah.jpg',
     name: 'Shah Hassan',
-    role: 'Full-Stack developer and project manager',
+    role: 'Project Manager',
     facebookProfileLink: 'https://facebook.com',
     linkedInProfileLink: 'https://www.linkedin.com/in/shahhassancs/',
     twitterProfileLink: 'https://twitter.com',
@@ -30,7 +30,7 @@ const team = [
   {
     image: '/assets/salman.jpg',
     name: 'Salman Saleem',
-    role: 'Designer',
+    role: 'Creative Designer',
     facebookProfileLink: 'https://www.linkedin.com/in/salman-saleem-8a99291b9/',
     linkedInProfileLink: 'https://www.linkedin.com/in/salman-saleem-8a99291b9/',
     twitterProfileLink: 'https://twitter.com',
@@ -59,10 +59,9 @@ function Team() {
               <p>{member.role}</p>
               <hr />
               <div className={styles.iconContainer}>
-                <a href={member.twitterProfileLink}>
-                  <Image src="/assets/linkedin.png" alt="Twitter Profile Link" width={18} height={18} />
+                <a href={member.linkedInProfileLink} target="_blank" rel="noreferrer">
+                  <Image src="/assets/linkedin.png" alt="LinkedIn Profile Link" width={18} height={18} />
                 </a>
-               
               </div>
             </div>
           ))}

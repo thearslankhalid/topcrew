@@ -37,9 +37,9 @@
     margin-block-start: 4rem;
   }
 
-  .projectContainer:last-child {
+  /* .projectContainer:last-child {
     margin-block-start: -4rem;
-  }
+  } */
 
   .projectImageContainer {
     height: 70vh;
@@ -57,9 +57,9 @@
     margin-block-start: 5.75rem;
   }
 
-  .projectContainer:last-child {
+  /* .projectContainer:last-child {
     margin-block-start: -5.75rem;
-  }
+  } */
 
   .projectImageContainer {
     height: 90vh;

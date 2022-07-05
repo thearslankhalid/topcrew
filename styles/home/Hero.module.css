@@ -1,7 +1,7 @@
 .header {
   background-color: var(--background-color);
   padding-block: 5rem 10rem;
-  min-height: 115vh;
+  min-height: 125vh;
   position: relative;
   background-image: url(../../public/assets/hero.svg);
   background-size: contain;
@@ -23,4 +23,21 @@
   font-size: 1.5rem;
   line-height: 1.5;
   margin-block: 0 3rem;
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    min-height: 95vh;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-block: 0 1rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+    margin-block: 0 2rem;
+  }
 }
