@@ -1,0 +1,44 @@
+.services {
+  background-color: var(--background-color);
+  padding-block: var(--section-block-padding);
+}
+
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.serviceContainer h3 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-block: 0 0.25rem;
+}
+
+.serviceContainer p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-block: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .servicesContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .serviceContainer {
+    flex-basis: calc(50% - 1.5rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .servicesContainer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .serviceContainer {
+    flex-basis: unset;
+  }
+}

@@ -1,0 +1,55 @@
+.team {
+  background-color: #ffffff;
+  padding-block: var(--section-block-padding);
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.teamMemberCard {
+  text-align: center;
+  padding: 3.1rem 1.9rem 1.9rem 1.9rem;
+  border: 1px solid #E7E5EA;
+  border-radius: 1.5rem;
+  transition: border-color 0.2s ease-out;
+}
+
+.teamMemberCard:hover {
+  border-color: var(--primary-color);
+}
+
+.teamMemberCard hr {
+  border: 1px solid #E7E5EA;
+  margin-block: 1.25rem;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .teamContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .teamMemberCard {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .teamContainer {
+    flex-wrap: nowrap;
+  }
+
+  .teamMemberCard {
+    flex-basis: unset;
+    flex: 1;
+  }
+}

@@ -1,16 +1,108 @@
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../public/fonts/SF-Pro-Display-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../public/fonts/SF-Pro-Display-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../public/fonts/SF-Pro-Display-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-font: 'SFProDisplay', sans-serif;
+
+  --fw-700: 700; 
+  --fw-500: 500;
+  --fw-400: 400;
+
+  --primary-color: #2589F9;
+  --background-color: #F6F0E9;
+  --background-color-dark: #14062F;
+
+  --button-text-color: #ffffff;
+  --text-color: #5D656F;
+  --heading-color: #1E1E1E;
+
+  --section-block-padding: 5.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--primary-font);
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+textarea {
+  font-family: var(--primary-font);
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }

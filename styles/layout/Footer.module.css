@@ -1,0 +1,84 @@
+.footer {
+  background-color: var( --background-color-dark);
+  padding-block: 5.5rem 3rem;
+  color: #ffffff;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 3rem;
+}
+
+.infoList li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputContainer {
+  position: relative;
+  flex: 1;
+}
+
+.inputContainer > span {
+  position: absolute !important;
+  left: 1.5rem;
+  top: calc(50% - 12px);
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 0.85rem 0.2rem 0.85rem 4rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.footer hr {
+  margin-block: 5rem 3rem;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.footerBottomContainer span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .flexContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .infoList {
+    margin-block: 0;
+  }
+
+  .footerBottomContainer {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .emailForm {
+    flex-direction: row;
+  }
+
+  .infoList li {
+    align-items: flex-start;
+  }
+
+  .infoList li span:last-child {
+    max-width: 25ch;
+  }
+}

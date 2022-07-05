@@ -1,0 +1,33 @@
+.nav {
+  padding-block: 0.5rem;
+  background-color: var(--background-color);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar li a {
+  color: var(--text-color);
+  transition: color 0.2s ease-out;
+}
+
+.navbar li a:hover,
+.navbar li a:active,
+.navbar li a:focus {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+}
