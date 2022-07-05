@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--background-color);
+  padding-block: 5rem 10rem;
+  min-height: 115vh;
+  position: relative;
+  background-image: url(../../public/assets/hero.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-block: 0 2rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-block: 0 3rem;
+}
