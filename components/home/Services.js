@@ -30,7 +30,9 @@ function Services() {
       <div className="container">
         <SectionHeader
           headingText="Our services"
-          paragraphText="It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          paragraphText="TopCrew provides our services in web, mobile, and desktop applications. We
+          set our goals in accordance with the timeline set by the client, and provide
+          high-quality work efficiently and effectively."
         />
         <div className={styles.servicesContainer}>
           {services.map((service, index) => (

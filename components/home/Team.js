@@ -4,35 +4,35 @@ import styles from '../../styles/home/Team.module.css';
 
 const team = [
   {
-    image: '/assets/team-1.png',
+    image: '/assets/arslan.jpg',
     name: 'Arslan Khalid',
     role: 'Lead Front-end engineer',
-    facebookProfileLink: 'https://facebook.com',
-    linkedInProfileLink: 'https://linkedin.com',
+    facebookProfileLink: 'https://www.linkedin.com/in/thearslankhalid/',
+    linkedInProfileLink: 'https://www.linkedin.com/in/thearslankhalid/',
     twitterProfileLink: 'https://twitter.com',
   },
   {
-    image: '/assets/team-2.png',
+    image: '/assets/shah.jpg',
     name: 'Shah Hassan',
     role: 'Full-Stack developer and project manager',
     facebookProfileLink: 'https://facebook.com',
-    linkedInProfileLink: 'https://linkedin.com',
+    linkedInProfileLink: 'https://www.linkedin.com/in/shahhassancs/',
     twitterProfileLink: 'https://twitter.com',
   },
   {
-    image: '/assets/team-3.png',
-    name: 'Ahmed Abdullah',
+    image: '/assets/ahmed.jpg',
+    name: 'Abdullah Ahmed',
     role: 'Full Stack Developer',
-    facebookProfileLink: 'https://facebook.com',
-    linkedInProfileLink: 'https://linkedin.com',
+    facebookProfileLink: 'https://www.linkedin.com/in/abdullah-ahmad-92216b16a/',
+    linkedInProfileLink: 'https://www.linkedin.com/in/abdullah-ahmad-92216b16a/',
     twitterProfileLink: 'https://twitter.com',
   },
   {
-    image: '/assets/team-4.png',
+    image: '/assets/salman.jpg',
     name: 'Salman Saleem',
     role: 'Designer',
-    facebookProfileLink: 'https://facebook.com',
-    linkedInProfileLink: 'https://linkedin.com',
+    facebookProfileLink: 'https://www.linkedin.com/in/salman-saleem-8a99291b9/',
+    linkedInProfileLink: 'https://www.linkedin.com/in/salman-saleem-8a99291b9/',
     twitterProfileLink: 'https://twitter.com',
   }
 ];
@@ -60,11 +60,9 @@ function Team() {
               <hr />
               <div className={styles.iconContainer}>
                 <a href={member.twitterProfileLink}>
-                  <Image src="/assets/twitter.png" alt="Twitter Profile Link" width={18} height={18} />
+                  <Image src="/assets/linkedin.png" alt="Twitter Profile Link" width={18} height={18} />
                 </a>
-                <a href={member.facebookProfileLink}>
-                  <Image src="/assets/facebook.png" alt="Facebook Profile Link" width={18} height={18} />
-                </a>
+               
               </div>
             </div>
           ))}
