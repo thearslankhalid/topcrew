@@ -3,24 +3,24 @@ import styles from '../../styles/home/Services.module.css';
 
 const services = [
   {
-    title: 'Service 1',
+    title: 'Web Applications',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets.',
+      'Software and web applications are our passion. Whatever your project, we can help.',
   },
   {
-    title: 'Service 1',
+    title: 'Mobile Applications',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets.',
+      'Perfectly crafted and intuitive mobile applications across IOS and Android.',
   },
   {
-    title: 'Service 1',
+    title: 'Open-source Applications',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets.',
+      'Working with and contributing to open-source applications has always been our passion.',
   },
   {
-    title: 'Service 1',
+    title: 'Blockchain',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets.',
+      'We love to work with the tech of future so we provide services in blockchain as well. ',
   },
 ];
 

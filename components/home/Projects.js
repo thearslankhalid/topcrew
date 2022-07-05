@@ -6,23 +6,23 @@ const projects = [
   {
     image: '/assets/hero.svg',
     altImageText: 'Project 1 image',
-    title: 'Project 1',
+    title: 'Odoo HR ',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'Deployed an HR Odoo Module for SPQR Agency which manages the data of their employees and helps them with the onboarding new recruits  ',
   },
   {
     image: '/assets/hero.svg',
     altImageText: 'Project 1 image',
-    title: 'Project 1',
+    title: 'Dinisium',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'Dinisium is an asset backed tokens exchange where we can buy/sell tokens backed by real assets .',
   },
   {
     image: '/assets/hero.svg',
     altImageText: 'Project 1 image',
-    title: 'Project 1',
+    title: 'Reflective collective',
     description:
-      'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'Reflective collective is a NFT related project where we can purchase NFTs related to characters of a story .',
   },
   {
     image: '/assets/hero.svg',

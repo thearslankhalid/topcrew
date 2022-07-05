@@ -5,8 +5,8 @@ import styles from '../../styles/home/Team.module.css';
 const team = [
   {
     image: '/assets/team-1.png',
-    name: 'Shah Hassan',
-    role: 'Full Stack Developer',
+    name: 'Arslan Khalid',
+    role: 'Lead Front-end engineer',
     facebookProfileLink: 'https://facebook.com',
     linkedInProfileLink: 'https://linkedin.com',
     twitterProfileLink: 'https://twitter.com',
@@ -14,14 +14,14 @@ const team = [
   {
     image: '/assets/team-2.png',
     name: 'Shah Hassan',
-    role: 'Full Stack Developer',
+    role: 'Full-Stack developer and project manager',
     facebookProfileLink: 'https://facebook.com',
     linkedInProfileLink: 'https://linkedin.com',
     twitterProfileLink: 'https://twitter.com',
   },
   {
     image: '/assets/team-3.png',
-    name: 'Shah Hassan',
+    name: 'Ahmed Abdullah',
     role: 'Full Stack Developer',
     facebookProfileLink: 'https://facebook.com',
     linkedInProfileLink: 'https://linkedin.com',
@@ -29,8 +29,8 @@ const team = [
   },
   {
     image: '/assets/team-4.png',
-    name: 'Shah Hassan',
-    role: 'Full Stack Developer',
+    name: 'Salman Saleem',
+    role: 'Designer',
     facebookProfileLink: 'https://facebook.com',
     linkedInProfileLink: 'https://linkedin.com',
     twitterProfileLink: 'https://twitter.com',
